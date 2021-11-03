@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 name="mastermind"
 print(f"Hello {name}")
 print(f"{name.upper()}")
