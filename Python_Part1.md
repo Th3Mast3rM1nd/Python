@@ -9,16 +9,16 @@ name = "mastermind" # variable names can contain letters , numbers , underscroes
 print(name)
 # strings 
 name_1= "python basics"
-print(name_1.titel()) # title() is method to change eacj word to title case
+print(name_1.title()) # title() is method to change eacj word to title case
 print(name_1.upper())
 print(name_1.lower()) 
 
-job_titel = "manager"
-job_titel_1 = "sell"
+job_title = "manager"
+job_title_1 = "sell"
 company = " google"
-job = f"{job_titel_1} {job_titel}" # format strings used here to replace the name of any variable in braces {} with its value.
-print(job.titel())
-print(f" im working as {job.titel()} in this {company.titel()})"
+job = f"{job_title_1} {job_title}" # format strings used here to replace the name of any variable in braces {} with its value.
+print(job.title())
+print(f" im working as {job.title()} in this {company.title()})"
 
 string_with_space = "   mastermind"
 string_with_space_1 = "Pentesting    "
