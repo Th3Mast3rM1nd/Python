@@ -77,7 +77,7 @@ country.sort(reverse=True) # sort the list reverse
 numbers = [100,2000,3,4,9,1,0,20]
 print(numbers.sort())
 print(numbers.sort(reverse=True)
-numbers.sorted() # sorting the list just Temporarily 
+sorted(numbers) # sorting the list just Temporarily  with sorted() function
 
 # reverse the Order of a list 
 country.reverse()
