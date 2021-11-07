@@ -81,6 +81,15 @@ elif >= 65:
 print(f"Your admission cost is ${price}")
 
 ```
+```python 
+passwords = ["password" , "password123" , "passWord2020" ]
+for password in passwords :
+    if password == "password" :
+        print("Correct Password")
+    else:
+        print("Wrong Password")
+```
+
    
 
 
