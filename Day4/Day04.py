@@ -1,6 +1,6 @@
-#  password generator letters Symbols numbers
-import random
-letters = [chr(i) for i in range(97,123)]
+#  password generator " letters Symbols numbers "
+import random 
+letters = [chr(i) for i in range(97,123)] 
 numbers = list(range(0,10))
 symbols = ["@","/","-","#","?","!","%"]
 
