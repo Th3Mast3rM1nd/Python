@@ -101,8 +101,34 @@ list_of_numbers = [10,34,300,22,34,100]
 total_sum = sum_of_list(list_of_numbers)
 print(total_sum)
 ```
+```python 
+# Passing number of arguments to a function 
+def sum(*number):
+    total = 0
+    for i in number:
+        total += i
+    print(total)
 
+sum(1,3,4,6,77,100)
+```
+```python
+# positional and Arguments
+def sum(number,*numbers):
+    for i in numbers:
+        number += i
+    print(number)
+    
+sum(2,20,20)
+```
+```python
+def user(first,last,**user_data):
+       user_data["first_name"] = first
+       user_data["last_name"] = last
+       return user_data
   
+user_info = user("master","mind",location="127.0.0.1",filed="pentesting")
+print(user_info)
+```
 
        
 
