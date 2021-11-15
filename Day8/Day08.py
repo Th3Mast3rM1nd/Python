@@ -1,6 +1,7 @@
 import base64
 
-file = open("./b64.txt" , "r")
+with open("./b64.txt") as file_contents:
+    contents = file_contents.read()
 
 def decode(text):
     base64_bytes = text.encode('ascii')
@@ -8,11 +9,10 @@ def decode(text):
     message = message_bytes.decode('ascii')
     return message
 
-read_file  = file.readline()
 counter = 0
 while True :
-    base64_decode = decode(read_file)
-    read_file = base64_decode
+    base64_decode = decode(contents)
+    contents = base64_decode
     counter += 1
     if counter == 50:
         print(base64_decode)
