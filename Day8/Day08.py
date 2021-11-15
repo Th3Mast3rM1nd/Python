@@ -1,6 +1,6 @@
 import base64
 
-with open("./b64.txt") as file_contents:
+with open("b64.txt") as file_contents:
     contents = file_contents.read()
 
 def decode(text):
