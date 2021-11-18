@@ -1,6 +1,6 @@
 # Day 10
 
-* ***Some Python Built-in Functions and Methods***
+* ***Some Python Built-in Functions***
 ```python 
 names = [ "root" , "test" , "mastermind" ] 
 len(names)# lenght of the list 3
