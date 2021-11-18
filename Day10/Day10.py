@@ -18,7 +18,6 @@ for file in files:
         counter1 += 1
         files_other_ext.append(file)
 
-
 print(f" total files was with {ext}  is {counter} ")
 print(f" total files was found without txt extenstion {counter1} ")
 
