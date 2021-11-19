@@ -55,5 +55,24 @@ res = requests.get(url,allow_redirects=True)
 print(res.url) # output will be https://github.com will be redirected because we used http
 
 ```
+* ***BeautifulSoup Module***
+
+```python 
+# beautifulsoup used for pulling data out of HTML and XML files
+import requests 
+import bs4
+res = requests.get("https://httpbin.org")
+httpbinSoup = bs4.BeautifulSoup(res.text)
+print(httpbinSoup)
+```
+```python
+import requests 
+import bs4
+res = requests.get("https://httpbin.org")
+httpbinSoup = bs4.BeautifulSoup(res.text)
+p_element = httpbinSoup.select("p") # we select here the <p> element html  and the output will be saved to python list 
+print(p_element[0].getText())
+code_element = httpbinSoup.select("code")
+print(str(code_element[0])
 
 
