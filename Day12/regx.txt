@@ -1,0 +1,17 @@
+192.168.1.10
+193.39.33.03
+mastermind@look.com
+008234-7494-9494
+password = "P@ssword_1923"
+username = "Admin"
+https://www.google.com
+https://www.yahoo.com/news
+10.10.10.20
+127.0.0.1
+VGhpcyBpcyBhIGJhc2U2NCAK
+VGhpcyBpcyBhIGJhc2U2NCAK
+VUhsMGFHOXVJR2x6SUdaMWJnPT0K
+192.192.2.2
+mail@yahoo.com
+help@protonmail.fr
+
