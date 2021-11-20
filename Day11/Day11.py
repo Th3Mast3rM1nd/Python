@@ -14,6 +14,6 @@ res = requests.get(url)
 url_soup = bs4.BeautifulSoup(res.text)
 href_element = url_soup.select("a")
 for i in range(0,len(href_element)):
-    with open("output_url.txt" , "a" ) as f:
+    with open("output_links.txt" , "a" ) as f:
          f.write(f"{href_element[i].get('href')}\n")
 
