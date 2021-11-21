@@ -1,0 +1,45 @@
+HACKTHEBOX VM LIST: ,,,Do not forget to check the other tabs in this list below!: 
+Curated by: TJnull at Netsec Focus,,,
+"Disclaimer: The boxes that are contained in this list should be used as a way to get started, to build your practical skills, or brush up on any weak points that you may have in your pentesting methodology. This list is not a substitute to the actual lab environment that is in the PWK/OSCP course. When you are taking the course, It is encouraged that you try to go through every system that is in the PWK/OSCP lab environment, as they will provide better insight for when you attempt to the exam itself. This list is not exhaustive, nor does it guarantee a passing grade for the OSCP Exam.",,,
+Linux Boxes:,Windows Boxes:,"More challenging than OSCP, but good practice:",Updated Boxes for July 2021: 
+Lame,legacy,Jeeves [Windows],Delivery [Linux]
+brainfuck,Blue,Bart   [Windows],Ready [Linux]
+shocker,Devel,Tally  [Windows],Time [Linux]
+bashed,Optimum,Kotarak [Linux],Worker [Windows]
+nibbles,Bastard,falafel [Linux],Ophiuchi [Linux]
+beep,granny,Devops [Linux],Atom [Windows]
+cronos,Arctic,Hawk [Linux],
+nineveh,grandpa,Netmon [Windows],
+sense,silo,Lightweight [Linux],
+solidstate,bounty,La Casa De Papel [Linux],
+node,jerry,Jail [Linux],
+valentine,conceal,Safe [Linux],
+poison,chatterbox,Bitlab [Linux],
+sunday,Forest,Sizzle [Windows],
+tartarsauce,BankRobber,Sniper [Windows],
+Irked,secnotes,Control [Windows],
+Friendzone,Bastion,October [Linux],
+Swagshop,Buff,Mango [Linux],
+Networked,Servmon,Nest [Windows],
+jarvis,Active,Book [Linux],
+Mirai,Remote,Sauna [Windows],
+Popcorn,Fuse,Cascade [Windows],
+Haircut,Omni,Querier [Windows],
+Blocky,Worker,Quick [Linux],
+Frolic,,BlackField [Windows],
+Postman,,APT [Windows],
+Mango,,Atom [Windows],
+Traverxec,,,
+OpenAdmin,,,
+Magic,,,
+Admirer,,,
+Blunder,,,
+Tabby ,,,
+Doctor,,,
+SneakyMailer,,,
+Passage,,,
+Luanne,,,
+Time,,,
+Ready,,,
+Delivery,,,
+Ophiuchi,,,
