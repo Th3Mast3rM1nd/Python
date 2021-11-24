@@ -1,8 +1,0 @@
-Healthcare 1: https://www.vulnhub.com/entry/healthcare-1,522/
-EVM 1: https://www.vulnhub.com/entry/evm-1,391/
-Breach 3.0.1: https://www.vulnhub.com/entry/breach-301,177/
-Infosec Prep OSCP Box: https://www.vulnhub.com/entry/infosec-prep-oscp,508/
-NullByte: https://www.vulnhub.com/entry/nullbyte-1,126/
-Tommy Boy 1: https://www.vulnhub.com/entry/tommy-boy-1,157/
-Breach 2.1: https://www.vulnhub.com/entry/breach-21,159/
-Healthcare 1: https://www.vulnhub.com/entry/healthcare-1,522/
