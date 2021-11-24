@@ -7,8 +7,10 @@ target_port = 22
 # SOCK_STREAM = TCP Protocol 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# Connecting to server using ip and port 
+# Connecting to server using ip and port
+client.settimeout(10)
 client.connect((target_host,target_port))
+client.settimeout(None)
 # sending data to the target_host 
 client.send(b"")
 # Recive the data from the server 
