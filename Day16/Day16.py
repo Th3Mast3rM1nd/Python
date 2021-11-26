@@ -15,7 +15,7 @@ print(f"Listing on {bind_ip} : {bind_port} ")
 def handle_client(client_socket):
     request = client_socket.recv(4096)
     print(f"Request Received {request} ")
-    client_socket.send(b"ACK") 
+    client_socket.send(b"ACK")
     client_socket.close()
 try :
     while True:
@@ -24,4 +24,4 @@ try :
         client_handler =threading.Thread(target=handle_client,args=(client,)) 
         client_handler.start()
 except KeyboardInterrupt:
-    print("Program Terminated ")
+    print("Program Terminated")
