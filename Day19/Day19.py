@@ -2,11 +2,11 @@ import requests
 import sys
 import socket
 import json 
-if len(sys.argv) == 0:
-    print(f"Usage : {sys.argv[0]} url ")
 
+# Usage : script.py google.com
 
 url = str(sys.argv[1])
+
 
 res = requests.get("https://" + url , verify = False)
 if res.status_code == 200:
